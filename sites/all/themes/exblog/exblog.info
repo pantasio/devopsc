@@ -1,0 +1,81 @@
+;Theme info
+name = Exblog
+description = Exblog ready for use Industries, School, hospital, corporative, travel, fashion, jewellery and any business.
+package = Core
+version = VERSION
+core = 7.x
+screenshot = 'screenshot.png'
+
+
+; Add a style sheet
+stylesheets[all][] = css/layerslider.css
+stylesheets[all][] = css/styles.css
+stylesheets[all][] = css/woocommerce-smallscreen.css
+stylesheets[all][] = css/woocommerce.css
+stylesheets[all][] = css/woocommerce-layout.css
+stylesheets[all][] = css/style.css
+stylesheets[all][] = css/checkbox.min.css
+stylesheets[all][] = css/style2.css
+stylesheets[all][] = css/responsive.css
+stylesheets[all][] = css/flex-slider/flexslider.css
+stylesheets[all][] = css/prettyPhoto/prettyPhoto.css
+stylesheets[all][] = css/font-awesome.min.css
+stylesheets[all][] = css/form.min.css
+stylesheets[all][] = css/shop.css
+
+
+; Add a script
+scripts[] = js/LayerSlider/greensock.js
+scripts[] = js/jquery/jquery.js
+scripts[] = js/jquery/jquery-migrate.min.js
+scripts[] = js/LayerSlider/layerslider.kreaturamedia.jquery.js
+scripts[] = js/LayerSlider/layerslider.transitions.js
+scripts[] = js/scripts.js
+scripts[] = js/jquery.form.min.js
+scripts[] = js/scripts2.js
+scripts[] = js/jquery-blockui/jquery.blockUI.min.js
+scripts[] = js/woocommerce.min.js
+scripts[] = js/jquery-cookie/jquery.cookie.min.js
+scripts[] = js/cart-fragments.min.js
+scripts[] = js/core.min.js
+scripts[] = js/widget.min.js
+scripts[] = js/accordion.min.js
+scripts[] = js/script.js
+scripts[] = js/jquery.easing.1.3.js
+scripts[] = js/flex-slider/jquery.flexslider-min.js
+scripts[] = js/prettyPhoto/jquery.prettyPhoto.js
+scripts[] = js/update.js
+
+;Core regions
+regions[header_logo] = 'Header Logo'
+regions[header_logo_2] = 'Header Logo 2'
+regions[header_social] = 'Header Social'
+regions[main_menu] = 'Main Menu'
+regions[top_content] = 'Top Content'
+regions[top_2_content] = 'Top 2 Content'
+regions[content] = 'Main Content'
+regions[content_section] = 'Section Content'
+regions[right_sidebar] = 'Right Sidebar'
+regions[top_footer] = 'Top Footer'
+regions[top_footer_2] = 'Top Footer 2'
+regions[footer] = 'Footer'
+regions[footer_2] = 'Footer 2'
+regions[footer_menu] = 'Foote Menu'
+
+;Features (core settings)
+features[] = 'logo'
+features[] = 'name'
+features[] = 'node_user_picture'
+features[] = 'comment_user_picture'
+features[] = 'comment_user_verification'
+
+;Breadcrumb
+settings[breadcrumb_display] = 'yes'
+settings[breadcrumb_separator] = ' &#187; '
+settings[breadcrumb_home] = 1
+
+settings[footer_copyright_message] = '  Copyright 2015 Marketing Exblog - Designed by <a href="#">NaviSystem</a> '
+
+version = "7.x"
+project = "Exblog"
+datestamp = "1365027012"
